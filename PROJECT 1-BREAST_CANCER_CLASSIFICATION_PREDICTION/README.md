@@ -37,22 +37,22 @@ All feature values are recoded with four significant digits.
 
 Correlation between features
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Correlation between features.png" width=700>
+<img src="Correlation between features.png" width=700>
 
 Distribution of Classes
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Distribution of Classes.png" width=400>
+<img src="Distribution of Classes.png" width=400>
  
 Number of Benign : 357       Number of Malignant: 212
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Distribution of Classes 1.png" width=400>
+<img src="Distribution of Classes 1.png" width=400>
 
 
 Data Distribution
  
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Data Distribution 1.png" width=700>
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Data Distribution 2.png" width=700>
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/Data Distribution 3.png" width=700>
+<img src="Data Distribution 1.png" width=700>
+<img src="Data Distribution 2.png" width=700>
+<img src="Data Distribution 3.png" width=700>
 
 
 
@@ -61,24 +61,24 @@ Data Distribution
 A SVM Classifier was used.
 Support Vector Machine(SVM) is a supervised machine learning algorithm used for both classification and regression. Though we say regression problems as well its best suited for classification. The objective of SVM algorithm is to find a hyperplane in an N-dimensional space that distinctly classifies the data points. The dimension of the hyperplane depends upon the number of features. If the number of input features is two, then the hyperplane is just a line. If the number of input features is three, then the hyperplane becomes a 2-D plane. It becomes difficult to imagine when the number of features exceeds three.
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/svm.png" width=500>
+<img src="svm.png" width=500>
 
  
 Without any manipulation technique as scaling  I get the following results:
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/first_output.png" width=500>
+<img src="first_output.png" width=500>
 
  
 # Model Refinement
 
 # Method 1:
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/data_normalization.png" width=500>
+<img src="data_normalization.png" width=500>
  
 
 # Result Obtained after applying this method 1:
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/After_normalization.png" width=500>
+<img src="After_normalization.png" width=500>
 
 
 
@@ -89,7 +89,7 @@ I defined functions to apply data manipulation techniques cited before and teste
 
 # Final Score:
 
-<img src="PROJECT 1-BREAST_CANCER_CLASSIFICATION_PREDICTION/FInal_score.png" width=500>
+<img src="FInal_score.png" width=500>
  
 
 The score can be improved on further analysis and experimentation with various kernels and tweaking of 'C' and 'gamma' parameters.
