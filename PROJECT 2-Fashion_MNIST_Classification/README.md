@@ -45,7 +45,7 @@ Each training and test example is assigned to one of the following labels:
 
 All 10 classes image with label
 
-<img src="PROJECT 2-Fashion_MNIST_Classification/Class.png" width=700>
+<img src="Class.png" width=700>
 
 
 # Model
@@ -56,18 +56,18 @@ Click Here:[Model](https://www.geeksforgeeks.org/applying-convolutional-neural-n
 
 True Classes VS Prediction Classes
 
-<img src="PROJECT 2-Fashion_MNIST_Classification/true vs predict.png" width=700>
+<img src="true vs predict.png" width=700>
 
 Confusion Matrix
 
-<img src="PROJECT 2-Fashion_MNIST_Classification/confusion matrix.png" width=700>
+<img src="confusion matrix.png" width=700>
 
 #Final score
 
 ACCURACY = 0.91
 TEST ACCURACY = 0.87
 
-<img src="PROJECT 2-Fashion_MNIST_Classification/finalscore class wise.png" width=700>
+<img src="finalscore class wise.png" width=700>
 
 
 
