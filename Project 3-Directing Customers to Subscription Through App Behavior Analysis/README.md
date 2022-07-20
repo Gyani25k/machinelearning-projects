@@ -22,12 +22,19 @@ As you can see in fineTech_appData DataFrame, there are 50,000 users data with 1
 3. dayofweek: On which day user logon.
 
 0: Sunday
+
 1: Monday
+
 2: Tuesday
+
 3: Wednesday
+
 4: Thursday
+
 5: Friday
+
 6: Saturday
+
 4. Hour: Time of a day in 24-hour format customer logon. It is correlated with dayofweek column.
 
 5. age: The age of the registered user.
